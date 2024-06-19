@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/models/user.dart';
-import 'package:my_app/services/api_service.dart';
-import 'package:my_app/services/user_service.dart';
-import 'package:my_app/widgets/user_list.dart';
+import '/models/user.dart';
+import '/services/api_service.dart';
+import '/services/user_service.dart';
+import '/widgets/user_list.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
